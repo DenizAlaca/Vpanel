@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context=".GelirGiderAyar">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout180"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/buttons"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout181"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout182"
+        app:layout_constraintWidth_percent="0.9">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout149"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout148"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName15"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/opensans_light"
+                android:hint="@string/gelir"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.75"
+                app:layout_constraintStart_toEndOf="@+id/checkBox11"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="@font/opensans_light"
+                android:text="@string/freecash"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName15"
+                app:layout_constraintHeight_percent="0.75"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout148"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout147"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout149">
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="@font/opensans_light"
+                android:text="@string/bitpanda"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName16"
+                app:layout_constraintHeight_percent="0.75"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.3" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName16"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/opensans_light"
+                android:hint="@string/gelir"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.75"
+                app:layout_constraintStart_toEndOf="@+id/checkBox12"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout147"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout146"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout148">
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="@font/opensans_light"
+                android:text="@string/okx"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName17"
+                app:layout_constraintHeight_percent="0.75"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.3" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName17"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/opensans_light"
+                android:hint="@string/gelir"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.75"
+                app:layout_constraintStart_toEndOf="@+id/checkBox13"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout146"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout147">
+
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/buttons"
+                android:fontFamily="@font/opensans_light"
+                android:text="@string/gelirguncelle"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.65"
+                app:layout_constraintStart_toEndOf="@+id/button62"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.4" />
+
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/buttons"
+                android:fontFamily="@font/opensans_light"
+                android:text="@string/giderguncelle"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/button60"
+                app:layout_constraintHeight_percent="0.65"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.4" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout142"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/buttons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout181"
+        app:layout_constraintWidth_percent="0.9">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout138"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayout139"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/ackapatImage"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/navigationbuttons"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.65"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.98"
+                app:srcCompat="@drawable/ic_baseline_power_settings_new_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout139"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayout140"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout138"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/freecashImage"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/navigationbuttons"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.65"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="1"
+                app:srcCompat="@drawable/ic_baseline_money_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout140"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayout141"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout139"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/gelirgiderImage"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/navigationbuttons"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.65"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="1"
+                app:srcCompat="@drawable/ic_baseline_attach_money_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout141"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayout5"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout140"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.2">
+
+            <ImageView
+                android:id="@+id/sifirlaImage"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/navigationbuttons"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.65"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="1"
+                app:srcCompat="@drawable/ic_baseline_lock_reset_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout141"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/updateImage"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/navigationbuttons"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.65"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.98"
+                app:srcCompat="@drawable/ic_baseline_update_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout181"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/buttons"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout142"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout180"
+        app:layout_constraintWidth_percent="0.9">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout187"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout187"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="1">
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="@font/opensans_light"
+                android:text="@string/freecash"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/checkBox18"
+                app:layout_constraintEnd_toStartOf="@+id/button64"
+                app:layout_constraintHeight_percent="0.3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.4" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:buttonTint="#FFFFFF"
+                android:fontFamily="@font/opensans_light"
+                android:text="@string/okx"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/button58"
+                app:layout_constraintHeight_percent="0.3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox17"
+                app:layout_constraintWidth_percent="0.4" />
+
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/buttons"
+                android:fontFamily="@font/opensans_light"
+                android:text="@string/yukle"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.35"
+                app:layout_constraintStart_toEndOf="@+id/checkBox18"
+                app:layout_constraintTop_toBottomOf="@+id/button64"
+                app:layout_constraintWidth_percent="0.4" />
+
+            <Button
+                android:id="@+id/button64"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/buttons"
+                android:fontFamily="@font/opensans_light"
+                android:text="@string/resimsec"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/button58"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.35"
+                app:layout_constraintStart_toEndOf="@+id/checkBox17"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.4" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:fontFamily="@font/opensans_light"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17"
+            app:layout_constraintWidth_percent="0.7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout182"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout180"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="1">
+
+        <Button
+            android:id="@+id/button43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/opensans_light"
+            android:text="@string/okxonayi"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.9" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

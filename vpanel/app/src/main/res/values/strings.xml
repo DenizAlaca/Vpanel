@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">VPanel</string>
+
+    <string name="profil">Profil</string>
+    <string name="tradeurl">Trade URL</string>
+    <string name="onaylandi">Onaylandı</string>
+    <string name="anasayfa">Ana Sayfa</string>
+    <string name="oduller">Ödüller</string>
+    <string name="kayitol">Kayıt Ol</string>
+    <string name="girisyap">Giriş Yap</string>
+    <string name="sifremiunuttum">Şifremi Unuttum</string>
+    <string name="sifremisifirla">Şifremi Sıfırla</string>
+    <string name="dogrula">Doğrula</string>
+    <string name="degisikliklerikaydet">Değişiklikleri Kaydet</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="gorselsec">Görsel Seç</string>
+    <string name="gorselackapa">Görseli Aç</string>
+    <string name="yukle">Yükle</string>
+    <string name="email">E-mail</string>
+    <string name="kullaniciadi">Kullanıcı Adı</string>
+    <string name="kullaniciid">Kullanıcı ID</string>
+    <string name="sifre">Şifre</string>
+    <string name="ltcadres">LTC Adresi</string>
+    <string name="guncelle">Güncelle</string>
+    <string name="merhabatext">Merhaba!</string>
+    <string name="geridon">Geri Dön</string>
+    <string name="katil">Katıl</string>
+    <string name="goreviyap">Görevi Yap</string>
+    <string name="cekilisekatilansayisi">Çekilişe Katılan Sayısı</string>
+
+
+    <string name="freecashtext">Freecash.com yüzlerce görev yapabileceğiniz bir ek gelir sitesidir.</string>
+    <string name="bitexentext">Bitexen.com Türkiyedeki güvenilir kripto borsalarından bir tanesidir.</string>
+    <string name="bitpandatext">Bitpanda.com Türkiyedeki güvenilir kripto borsalarından bir tanesidir.</string>
+    <string name="okxtext">Okx.com promosyonlarıyla gündeme gelen bir kripto borsasıdır.</string>
+    <string name="toslatext">Tosla 18 yaş sınırına takılmadan aidatsız, masrafsız bir şekilde kullanacağınız ön ödemeli hesaptır.</string>
+
+
+    <string name="ornekgorsel">Örnek Görsel</string>
+
+    <string name="bitexenaciklama">Bu bölüme Bitexene kayıt olduğunuz mail adresinizi yazmanız gerekir.</string>
+    <string name="kodaciklama">Mailinize Gelen Kod</string>
+    <string name="dogrulamakodual">Doğrulama Kodu Al</string>
+    <string name="maildogrulamasi">Mail Doğrulaması</string>
+
+
+    <string name="teklifler">Teklifler</string>
+    <string name="teklif1">Teklif 1</string>
+    <string name="teklif2">Teklif 2</string>
+    <string name="teklif3">Teklif 3</string>
+    <string name="teklif1odul">Teklif 1 Ödül</string>
+    <string name="teklif2odul">Teklif 2 Ödül</string>
+    <string name="teklif3odul">Teklif 3 Ödül</string>
+    <string name="bitexenmailadresi">Bitexen Mail Adresi</string>
+    <string name="guncelletext">Kullanmaya devam etmek için güncelleme yapmalısınız.</string>
+    <string name="tarih">Tarih</string>
+    <string name="hesapdogrulanmadurumu">Hesap Durumu</string>
+    <string name="dogrulamakodu">Doğrulama Kodu</string>
+    <string name="kullanicilar">Kullanıcı Listesi</string>
+    <string name="maxkatilimcisayisiayarlama">Max Katılımcı Sayısı Ayarlama</string>
+    <string name="panel">Panel</string>
+    <string name="geri">Geri</string>
+    <string name="kazananlarigoruntule">Tüm Kazananları Görüntüle</string>
+
+    <string name="odulicinyapilacaklar">Ödül İçin Yapılacaklar</string>
+
+    <string name="freecashdetay1">1- Freecash.com sitesine veya mobil uygulamasına kayıt olun.</string>
+    <string name="freecashdetay2">2- Referans kodu kısmına vrkrinspect yazın.</string>
+    <string name="freecashdetay3">3- Çeşitli görevler yaparak çekilişe destek olun.</string>
+    <string name="freecashdetay4">4- Profilinize girip General başlığı altında bulunan bilgilerin gözüktüğü bir ekran görüntüsü alın.</string>
+    <string name="freecashdetay5">5- Ekran görüntüsünü Görevi Yap butonuna tıklayıp yükleyin ve onaylanmasını bekleyin.</string>
+    <string name="freecashdetay6">Hepsi bu kadar. Çekilişe katılmaya ve havuzdaki payınızı almaya hazırsınız.</string>
+    <string name="freecashonay">Freecash.com da vrkrinspect kodunu kullandığımı onaylıyorum.</string>
+
+    <string name="bitexendetay1">1- Bitexen.com sitesine veya mobil uygulamasına kayıt olma işlemine başlayın.</string>
+    <string name="bitexendetay2">2- Kayıt olurken referans kısmına 616433626 yazın.</string>
+    <string name="bitexendetay3">3- Güvenlik, doğrulama adımlarını tamamlayın ve müşteri tanıma formunu doldurun.</string>
+    <string name="bitexendetay4">4- Kayıt olduğunuz mail adresinizi Görevi Yap butonuna tıklayıp yazın ve onaylanmasını bekleyin.</string>
+    <string name="bitexendetay5">Hepsi bu kadar. Çekilişe katılmaya ve havuzdaki payınızı almaya hazırsınız.</string>
+    <string name="bitexenonay">Bitexen.com da referans kodunu kullandığımı onaylıyorum.</string>
+
+    <string name="okxdetay1">1- Okx.com sitesine veya mobil uygulamasına kayıt olma işlemine başlayın.</string>
+    <string name="okxdetay2">2- Kayıt olurken referans kısmına 56370804 yazın.</string>
+    <string name="okxdetay3">3- Hesabın oluşması için gerekli doğrulamaları yapın.</string>
+    <string name="okxdetay4">4- Sürpriz kutunuzu açabilirsiniz.</string>
+    <string name="okxonay">Okx.com da referans kodunu kullandığımı onaylıyorum.</string>
+
+    <string name="bitpandadetay1">1- Bitpanda.com sitesine veya mobil uygulamasına kayıt olma işlemine başlayın.</string>
+    <string name="bitpandadetay2">2- Kayıt olurken referans kısmına 597023746743765604 yazın.</string>
+    <string name="bitpandadetay3">3- Hesabın oluşması için gerekli doğrulamaları yapın.</string>
+    <string name="bitpandadetay4">4- Ödülünüz Hesabınızda.</string>
+    <string name="bitpandaonay">Bitpanda.com da referans kodunu kullandığımı onaylıyorum.</string>
+
+    <string name="kayitonay">VLikeit kullanım koşullarını okudum, onaylıyorum.</string>
+
+    <string name="anladim">Anladım</string>
+    <string name="yakinda">Yakında!</string>
+
+    <string name="sayfa1">Sayfa 1/2</string>
+    <string name="sayfa2">Sayfa 2/2</string>
+
+
+    <string name="vris">VRIS</string>
+    <string name="yil">2019-2022</string>
+
+
+    <string name="guncellemeonayi">Güncellemeyi Onayla</string>
+    <string name="freecash">Freecash</string>
+    <string name="gelir">Gelir</string>
+    <string name="bitpanda">Bitpanda</string>
+
+    <string name="okx">Okx</string>
+
+    <string name="giderguncelle">Gider Güncelle</string>
+    <string name="gelirguncelle">Gelir Güncelle</string>
+    <string name="toplamgelenpara">Toplam Gelen Para</string>
+    <string name="sifirla">Sıfırla</string>
+    <string name="onaylanmishesaplar">Onaylanmış Hesaplar</string>
+    <string name="beklemedekihesaplar">Beklemedeki Hesaplar</string>
+    <string name="resmicek">Resmi Çek</string>
+    <string name="onayla">Onayla</string>
+    <string name="ac">Aç</string>
+    <string name="kapat">Kapat</string>
+    <string name="okxonayi">Okx Onay</string>
+    <string name="resimsec">Resim Seç</string>
+
+
+</resources>
